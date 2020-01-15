@@ -1,8 +1,10 @@
 # Zarpo Magento
 
-Senha Admin : CUxEGJCZg2oeWc
+## Informações de acesso da intalação Demo
 
-Chave Crypto : mJ3yh8hlTOErqA
+Usuário : admin
+
+Senha : CUxEGJCZg2oeWc
 
 ## Para aplicar o tema Zarpo em uma nova instalação
 
@@ -13,3 +15,4 @@ Chave Crypto : mJ3yh8hlTOErqA
 
 - Em CMS > Pages, clicar na página **Home Page** acessar a aba design e alterar o campo para **Layout** para *empty*
  
+Chave Crypto : mJ3yh8hlTOErqA
