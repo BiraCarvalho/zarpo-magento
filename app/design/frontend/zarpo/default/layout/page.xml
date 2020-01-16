@@ -20,7 +20,7 @@
  * needs please refer to http://www.magento.com for more information.
  *
  * @category    design
- * @package     rwd_default
+ * @package     zarpo_default
  * @copyright   Copyright (c) 2006-2019 Magento, Inc. (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
@@ -169,6 +169,9 @@
             <action method="setIsHandle"><applied>1</applied></action>
             <action method="setLayoutCode"><name>empty</name></action>
         </reference>
+        <block type="home/restrict" name="restrict" as="restrict">
+        
+        </block>
     </page_empty>
 
 </layout>
