@@ -66,6 +66,11 @@
         </reference>
     </cms_index_index>
 
+    <customer_logged_out>
+        <reference name="footer">
+            <block type="customer/form_login" name="footer_customer_form_mini_login" template="customer/form/mini.login.phtml"/>
+        </reference>
+    </customer_logged_out>
 </layout>
 
 
