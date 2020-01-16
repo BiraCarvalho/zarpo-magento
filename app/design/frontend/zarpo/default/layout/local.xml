@@ -43,15 +43,6 @@
         </reference>
 
         <reference name="head">
-            <action method="addItem" ><type>skin_css</type><name>vendor/bootstrap/css/bootstrap.min.css</name></action>                        
-            <action method="addItem" ><type>skin_css</type><name>css/local.css</name></action>
-            
-            <action method="addItem" ><type>skin_js</type><name>vendor/jquery/jquery.min.js</name></action>
-            <action method="addItem" ><type>skin_js</type><name>vendor/jquery/noconflict.js</name></action>
-            <action method="addItem" ><type>skin_js</type><name>vendor/jquery/migrate.min.js</name></action>
-            <action method="addItem" ><type>skin_js</type><name>vendor/popper/popper.min.js</name></action>                
-            <action method="addItem" ><type>skin_js</type><name>vendor/bootstrap/js/bootstrap.min.js</name></action>
-
             <action method="removeItem"><type>js</type><name>lib/jquery/jquery-1.12.1.min.js</name></action>
             <action method="removeItem"><type>js</type><name>lib/jquery/noconflict.js</name></action>
             <action method="removeItem"><type>skin_js</type><name>js/app.js</name></action>
@@ -59,8 +50,15 @@
             <action method="removeItem"><type>skin_js</type><name>js/lib/jquery.cycle2.swipe.min.js</name></action>
             <action method="removeItem"><type>skin_js</type><name>js/slideshow.js</name></action>
 
-
-            <action method="addItem" ><type>skin_js</type><name>js/local.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>vendor/bootstrap/css/bootstrap.min.css</name></action>                        
+            <action method="addItem"><type>skin_css</type><name>css/local.css</name></action>
+            <action method="addItem"><type>skin_js</type><name>vendor/jquery/jquery.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>vendor/jquery/noconflict.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>vendor/jquery/migrate.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>vendor/popper/popper.min.js</name></action>                
+            <action method="addItem"><type>skin_js</type><name>vendor/bootstrap/js/bootstrap.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/local.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/app.js</name></action>
         </reference>
         
         <reference name="content">
