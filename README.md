@@ -13,6 +13,8 @@ Senha : CUxEGJCZg2oeWc
 
 ## Para exibir alterações da Home Page
 
-- Em CMS > Pages, clicar na página **Home Page** acessar a aba design e alterar o campo para **Layout** para *empty*
- 
+- Em CMS > Pages, clicar na página **Home Page** acessar a aba design e alterar o campo para **Layout** para *1 column*
+
+----
+
 Chave Crypto : mJ3yh8hlTOErqA
