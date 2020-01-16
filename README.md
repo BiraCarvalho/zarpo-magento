@@ -1,6 +1,6 @@
 # Zarpo Magento
 
-## Informações de acesso da intalação Demo
+## Informações de acesso a instalação Demo
 
 Usuário : admin
 
