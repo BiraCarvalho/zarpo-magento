@@ -68,7 +68,7 @@
 
     <customer_logged_out>
         <reference name="footer">
-            <block type="customer/form_login" name="footer_customer_form_mini_login" template="customer/form/mini.login.phtml"/>
+            <block type="oauth/authorize/form_login" name="footer_oauth_authorize_login" template="oauth/authorize/form/login-simple.phtml"/>
         </reference>
     </customer_logged_out>
 </layout>
