@@ -1,5 +1,8 @@
-<div class="card">
-    <div class="card-body">
-        <h3>Isso é um bloco!</h3>
+<?php if (Mage::getSingleton('customer/session')->isLoggedIn()) : ?>
+    <!-- check if customer is logged in -->
+    <div class="card">
+        <div class="card-body">
+            <h3>Este bloco só pode ser visualizado por usário logados! =D</h3>
+        </div>
     </div>
-</div>
+<?php endif;?>
